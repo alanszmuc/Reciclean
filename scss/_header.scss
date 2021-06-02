@@ -1,0 +1,51 @@
+/*-------------------------------HEADER-----------------------------------------------*/
+
+
+header{
+    font-family: $font-header;
+    background-color: $bg-color-header;
+}
+
+.logo {	
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    width: 35%;
+    min-width: 150px;
+    min-height: auto;
+    margin-left: $container-margin-width;
+    margin-right: $container-margin-width;
+}
+
+
+/*------------------------BARRA DE NAVEGACIÓN--------------------------------------*/
+
+.navBarcontentText{
+    text-align: center;
+    font-size: 1.2rem; /* tamaño de la letra*/
+    color: $color-secondary; 
+    padding-right: $header-padding;
+    padding-left: $header-padding;
+}
+
+.navBarcontentTextGreenBold{
+    @extend .navBarcontentText;
+    color: $color-tertiary;
+}
+
+
+/*----------------Transiciones---------------*/
+
+.navBarcontentText:hover{
+    background-color: $color-secondary;
+    color: $color-white;
+    padding: $header-padding;
+    border-radius: $redondear-botones;
+}
+
+.navBarcontentTextGreenBold:hover{
+    background-color: $color-tertiary;
+    color: $color-white;
+    padding: $header-padding;
+    border-radius: $redondear-botones;
+}

@@ -1,0 +1,65 @@
+/*-------------------------------- FOOTER ----------------------------------*/
+
+.footerContainer{
+    background-color: $color-primary;
+    padding-bottom: $padding-height;
+
+        .h5Footer{
+            font-size: $footer-h5-size;
+            font-weight: $footer-h5-weight; 
+            margin-bottom: $text-margin-height;
+            margin-top: $text-margin-height;
+            color: $footer-h5-color;
+        }
+
+            .linksFooterText{
+                line-height: 1.75;
+                color: $color-secondary;
+                margin-right: $text-margin-width;
+                text-decoration: $links-text-decoration;
+            }
+
+            .twitterFooterContainer{
+                @include alinear-al-final;
+                margin-top: 2vh;
+                text-decoration: $links-text-decoration;
+            }
+                .orangeBold{
+                    font-family: $font-header;
+                    font-weight: $footer-twitterContainer-weight;
+                    font-size: $footer-twitterContainer-size;
+                    color: $color-secondary;
+                    text-decoration: $links-text-decoration;
+                }
+                
+                .greenBold{
+                    font-family: $font-header;
+                    font-weight: $footer-twitterContainer-weight;
+                    font-size: $footer-twitterContainer-size;
+                    color: $color-tertiary;
+                    text-decoration: $links-text-decoration;
+                }
+
+            .redesSociales{
+                @include alinear-al-final;
+                text-decoration: $links-text-decoration;
+            }
+                
+                .iconosRedesSociales{
+                    min-width: $footer-icons-min-width;
+                    width: $footer-icons-width;
+                    margin-right: $text-margin-width - 1.9vw;
+                    height: auto;
+                }
+    }
+
+
+/*----Formato de lectura reloj para margin y padding----
+
+----------   0   ----------
+
+---  3           1   ------
+
+----------   2   ----------
+
+*/

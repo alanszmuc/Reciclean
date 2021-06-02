@@ -1,0 +1,27 @@
+
+/*-------------------------------- ¿CÓMO FUNCIONA? ----------------------------------*/
+
+.container {
+
+    .iconoComoFunciona{
+        width: 60%;
+        height: auto;
+        border-radius: $avatar-format;
+        border: $avatar-border-radius;
+        margin-bottom: $text-margin-height;
+        margin-top: $text-margin-height - 1vh;
+    }
+
+    .textoComoFunciona{
+        background-color:$bg-color-paragraph-text;
+        width: 100%;
+        height: auto;
+        padding: $text-padding-width;
+        margin-bottom: $text-margin-height;
+        border-radius: $border-radius-paragraph-text;
+        text-align: $text-align;
+    }
+    
+}
+
+

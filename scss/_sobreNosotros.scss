@@ -1,0 +1,20 @@
+
+
+/*-------------------------------- SOBRE NOSOTROS ----------------------------------*/
+
+
+
+.noticiaParrafo{
+    padding-left: $padding-width;
+    margin-bottom: $text-margin-height;
+    max-height: auto;
+    text-align: $text-align;
+}
+
+    .noticiaTitulo{
+        text-align: center;
+    }
+
+.featurette-divider-sobreNosotros {
+    margin: $margin-height + 6 0;
+}

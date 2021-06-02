@@ -1,0 +1,29 @@
+.carousel-item{
+    height: $carousel-item-height;
+    background-color: $color-black;
+    color: $color-white;
+    position: relative;
+
+    .fotoCarrousel{
+        opacity: $carrousel-opacity;
+        width: 100%;
+        height: $carousel-item-height;   
+    }
+    
+    .carruselText{    
+        background-color:$bg-color-carrousel-text;
+        width: 30%;
+        margin-top: $text-margin-height;
+        padding-top: $text-padding-height;
+        padding-bottom: $text-padding-height;
+        padding-left: $text-padding-width;
+        padding-right: $text-padding-width;
+        text-align: $text-align;
+    }	        
+}
+
+@media (max-width: 600px){
+    .carruselText{
+     display: none;
+    }
+}

@@ -1,0 +1,115 @@
+@for $i from 1 through 10 {
+    .margin-tb-#{$i} { width: 1vh * $i;}
+  }
+  
+@for $i from 1 through 10 {
+    .margin-lr-#{$i} { width: 1vw * $i;}
+  }
+
+  @for $i from 1 through 10 {
+    .padding-tb-#{$i} { width: 1vh * $i;}
+  }
+  
+@for $i from 1 through 10 {
+    .padding-lr-#{$i} { width: 1vw * $i;}
+  }
+
+$color-primary: #125375;
+$color-secondary: #C4804E;
+$color-tertiary: #6FB63D;
+$border-text-color: #b8b5b5ec;
+$color-black: black;
+$color-white: white;
+$padding-height: 1vh;
+$padding-width: 1vw;
+$margin-height: 1vh;
+$margin-width: 1vw;
+$border-radius-text: 1rem;
+
+
+@mixin alinear-al-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+@mixin bg-image-noticias {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 100%;
+    height: 30vh;
+    margin-top: $margin-height;
+    margin-bottom: $margin-height;
+
+}
+
+
+$links-text-decoration: none;
+
+$font-header: 'Roboto', sans-serif;
+$font-body:'Lato', sans-serif ; 
+
+
+$bg-color-header: $color-primary; 
+$header-padding: $padding-height; 
+$redondear-botones: 15rem;
+$color-body: $color-black;
+
+$redondear-imagenes: 50rem;
+
+
+$container-margin-height: $margin-height + 1vh;
+$container-margin-width: $margin-width;
+
+$carousel-item-height: 65vh;
+$carrousel-opacity: 0.80;
+
+$bg-color-carrousel-text: #8a848449; 
+$text-margin-height: 2vh;
+$text-margin-width: 2vw;
+$text-padding-height: $padding-height;
+$text-padding-width: $padding-width+0.5;
+$text-align: justify;
+
+$avatar-format: 50rem;
+$avatar-border-radius: 3px solid $color-tertiary;
+
+
+$bg-color-paragraph-text: #e9e5e5c7;
+$border-radius-paragraph-text: $border-radius-text;
+$border-paragraph-text: 3px solid $border-text-color;
+
+$bg-color-CallToAction: #D0E4A7;
+$color-CallToAction: $color-secondary;
+$font-size-CallToAction: 1.4rem;
+$font-weight-callToAction: bold;
+$border-callToAction: none;
+$border-radius-callToAction: $redondear-imagenes;
+
+
+$noticias-tag-paragraph-height: $padding-height;
+$noticias-tag-paragraph-width: $padding-width ;
+
+
+
+$footer-padding-height: $padding-height; 
+$footer-h5-size: 1.2rem bold;
+$footer-h5-weight: bold;
+$footer-h5-color: $color-tertiary;
+$links-footer-color: $color-secondary;
+
+$footer-twitterContainer-size: 1.8rem;
+$footer-twitterContainer-weight: bold;
+
+$footer-icons-width: 1.7rem;
+$footer-icons-min-width: 1.2;
+
+
+
+
+
+
+
+
+

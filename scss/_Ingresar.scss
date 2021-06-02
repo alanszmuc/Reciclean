@@ -1,0 +1,46 @@
+	/* Coded with love by Mutiullah Samim */
+
+    .containerLogin{
+        margin-top: $margin-height + 1vh;
+        margin-bottom: $margin-height + 3vh;
+
+        .userCard_login{
+            border: $border-paragraph-text;
+            border-radius: $border-radius-paragraph-text;
+            padding-bottom: $padding-height + 3vh;
+            padding-top: $padding-height + 1vh;
+            padding-left: $text-padding-width + 1vw;
+            padding-right: $text-padding-width + 1vw; 
+            // background-color: $bg-color-paragraph-text;
+        }
+
+            .logo-login{
+                @extend .logo;
+                border-radius: $avatar-format;
+                padding: $padding-width;
+                margin-bottom: $margin-height + 1vh;
+            }
+
+            .callToAction-login-primary {
+                background: $bg-color-CallToAction;
+                color: $color-CallToAction;
+                border: $border-callToAction;
+                border-radius: $border-radius-callToAction;
+                font-weight: $font-weight-callToAction;
+                margin: $margin-height;
+            }
+            
+            .callToAction-login-primary:hover{
+                background-color: $color-CallToAction;
+                color: $color-white;
+            }
+                
+            .iconosRedesSociales-login{
+                width: 3vw;
+                border-radius: $redondear-imagenes;
+                margin: $margin-width;
+            }
+}
+
+    
+

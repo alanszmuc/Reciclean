@@ -1,0 +1,94 @@
+body{
+    font-family: $font-body;
+    font-size: 1.1rem;
+    justify-content: center;
+    color: $color-body; 
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin-top: $container-margin-height;
+    margin-bottom: $container-margin-height;
+}
+
+.container-sección{
+    margin-top: $container-margin-height + 3vh;
+    margin-bottom: $container-margin-height + 2vh;
+}
+
+.callToAction{
+    background: $bg-color-CallToAction;
+    color: $color-CallToAction;
+    border: $border-callToAction;
+    border-radius: $border-radius-callToAction;
+    font-weight: $font-weight-callToAction;
+    font-size: $font-size-CallToAction;
+    margin-bottom: $text-margin-height;
+    margin-top: $text-margin-height;
+
+    padding-top: $text-padding-height;
+    padding-bottom: $text-padding-height;
+    padding-left: $text-padding-width;
+    padding-right: $text-padding-width;
+}
+
+/*----------------Transiciones---------------*/
+
+.callToAction:hover{
+    background-color: $color-CallToAction;
+    color: $color-white;
+}
+
+
+
+/*-------------------------------- FORMULARIO ----------------------------------*/
+
+
+.formularioContacto {
+    width: 80vw;
+    margin: 6vh auto;
+}
+
+.callToAction-formulario-primary {
+    background: $bg-color-CallToAction;
+    color: $color-CallToAction;
+    border: $border-callToAction;
+    border-radius: $border-radius-callToAction;
+    font-weight: $font-weight-callToAction;
+    font-size: $font-size-CallToAction;
+    margin-bottom: $text-margin-height;
+    margin-top: $text-margin-height;
+}
+
+.callToAction-formulario-primary:hover{
+    background-color: $color-CallToAction;
+    color: $color-white;
+}
+
+.callToAction-formulario-secondary {
+    background: $color-primary;
+    color: $color-CallToAction;
+    border: $border-callToAction;
+    border-radius: $border-radius-callToAction;
+    font-weight: $font-weight-callToAction;
+    font-size: $font-size-CallToAction;
+    margin-bottom: $text-margin-height;
+    margin-top: $text-margin-height;
+}
+
+.callToAction-formulario-secondary:hover{
+    background-color: $color-CallToAction;
+    color: $color-white;
+}
+
+.containerNoticias{
+    padding-right: $padding-width +1vw;
+    padding-left: $padding-width +1vw ;
+    padding-top: $padding-height +1vh;
+    padding-bottom: $padding-height + 1vh;
+}
