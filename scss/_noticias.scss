@@ -1,7 +1,7 @@
 /*-------------------------------- NOTICIAS ----------------------------------*/
 
 .imagenNoticias {
-    background-image: url(../Recursos/Imagenes/imagen_generica.png);
+    background-image: url(../recursos/imagenes/imagen_generica.png);
     @include bg-image-noticias;
     .etiquetaNoticias {
         position: relative;

@@ -354,7 +354,7 @@ header {
 
 /*-------------------------------- NOTICIAS ----------------------------------*/
 .imagenNoticias {
-  background-image: url(../Recursos/Imagenes/imagen_generica.png);
+  background-image: url(../recursos/imagenes/imagen_generica.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
