@@ -3,12 +3,12 @@
 .imagenNoticias{
     @include bg-image-noticias;
     border-radius: $border-radius-text;
-    margin-bottom: $margin-height + 1vh;
+    margin-bottom: $margin-height *2;
+    
     .etiquetaNoticias {
         position: relative;
         top: $padding-height + 3;
         left: $padding-width - 3;
-    
         background-color: $color-primary;
         font-size: $font-size-CallToAction;
         color: $color-secondary; 
