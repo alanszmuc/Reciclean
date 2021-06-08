@@ -353,8 +353,8 @@ header {
 }
 
 /*-------------------------------- NOTICIAS ----------------------------------*/
-.imagenNoticias {
-  background-image: url(../Recursos/Imagenes/imagen_generica.png);
+.imagenNoticias1 {
+  background-image: url(/Recursos/Imagenes/Noticias/Botellas_de_plastico.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -363,7 +363,55 @@ header {
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
-.imagenNoticias .etiquetaNoticias {
+.imagenNoticias1 .etiquetaNoticias {
+  position: relative;
+  top: 4vh;
+  left: -2vw;
+  background-color: #125375;
+  font-size: 1.4rem;
+  color: #C4804E;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 1rem;
+}
+
+.imagenNoticias2 {
+  background-image: url(/Recursos/Imagenes/Noticias/caminos_del_plastico.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.imagenNoticias2 .etiquetaNoticias {
+  position: relative;
+  top: 4vh;
+  left: -2vw;
+  background-color: #125375;
+  font-size: 1.4rem;
+  color: #C4804E;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 1rem;
+}
+
+.imagenNoticias3 {
+  background-image: url(/Recursos/Imagenes/Noticias/estado_reciclaje_argentina.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+.imagenNoticias3 .etiquetaNoticias {
   position: relative;
   top: 4vh;
   left: -2vw;

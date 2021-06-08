@@ -1,7 +1,45 @@
 /*-------------------------------- NOTICIAS ----------------------------------*/
 
-.imagenNoticias {
-    background-image: url(../Recursos/Imagenes/imagen_generica.png);
+.imagenNoticias1 {
+    background-image: url(/Recursos/Imagenes/Noticias/Botellas_de_plastico.jpeg);
+    @include bg-image-noticias;
+    .etiquetaNoticias {
+        position: relative;
+        top: $padding-height + 3;
+        left: $padding-width - 3;
+    
+        background-color: $color-primary;
+        font-size: $font-size-CallToAction;
+        color: $color-secondary; 
+        padding-top: $padding-height;
+        padding-bottom: $padding-height;
+        padding-left: $noticias-tag-paragraph-width;
+        padding-right: $noticias-tag-paragraph-width;
+        border-radius: $border-radius-text;
+    }
+}
+
+.imagenNoticias2 {
+    background-image: url(/Recursos/Imagenes/Noticias/caminos_del_plastico.jpg);
+    @include bg-image-noticias;
+    .etiquetaNoticias {
+        position: relative;
+        top: $padding-height + 3;
+        left: $padding-width - 3;
+    
+        background-color: $color-primary;
+        font-size: $font-size-CallToAction;
+        color: $color-secondary; 
+        padding-top: $padding-height;
+        padding-bottom: $padding-height;
+        padding-left: $noticias-tag-paragraph-width;
+        padding-right: $noticias-tag-paragraph-width;
+        border-radius: $border-radius-text;
+    }
+}
+
+.imagenNoticias3 {
+    background-image: url(/Recursos/Imagenes/Noticias/estado_reciclaje_argentina.jpg);
     @include bg-image-noticias;
     .etiquetaNoticias {
         position: relative;
