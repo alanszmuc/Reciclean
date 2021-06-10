@@ -36,7 +36,7 @@ a {
 
 .callToAction {
   background: #D0E4A7;
-  color: #C4804E;
+  color: #125375;
   border: none;
   border-radius: 50rem;
   font-weight: bold;
@@ -51,7 +51,7 @@ a {
 
 /*----------------Transiciones---------------*/
 .callToAction:hover {
-  background-color: #C4804E;
+  background-color: #125375;
   color: white;
 }
 
@@ -62,8 +62,8 @@ a {
 }
 
 .callToAction-formulario-primary {
-  background: #D0E4A7;
-  color: #C4804E;
+  background: #a2ca84;
+  color: #125375;
   border: none;
   border-radius: 50rem;
   font-weight: bold;
@@ -73,13 +73,13 @@ a {
 }
 
 .callToAction-formulario-primary:hover {
-  background-color: #C4804E;
+  background-color: #125375;
   color: white;
 }
 
 .callToAction-formulario-secondary {
-  background: #125375;
-  color: #C4804E;
+  background: #aca9a9ec;
+  color: #125375;
   border: none;
   border-radius: 50rem;
   font-weight: bold;
@@ -89,7 +89,7 @@ a {
 }
 
 .callToAction-formulario-secondary:hover {
-  background-color: #C4804E;
+  background-color: #125375;
   color: white;
 }
 
@@ -103,7 +103,7 @@ a {
 /*-------------------------------HEADER-----------------------------------------------*/
 header {
   font-family: "Roboto", sans-serif;
-  background-color: #125375;
+  background-color: #67b100;
 }
 
 .logo, .containerLogin .logo-login {
@@ -122,25 +122,26 @@ header {
   text-align: center;
   font-size: 1.2rem;
   /* tamaño de la letra*/
-  color: #C4804E;
+  color: #125375;
   padding-right: 1vh;
   padding-left: 1vh;
+  font-weight: bold;
 }
 
 .navBarcontentTextGreenBold {
-  color: #6FB63D;
+  color: #aa581d;
 }
 
 /*----------------Transiciones---------------*/
 .navBarcontentText:hover, .navBarcontentTextGreenBold:hover {
-  background-color: #C4804E;
+  background-color: #125375;
   color: white;
   padding: 1vh;
   border-radius: 15rem;
 }
 
 .navBarcontentTextGreenBold:hover {
-  background-color: #6FB63D;
+  background-color: #aa581d;
   color: white;
   padding: 1vh;
   border-radius: 15rem;
@@ -208,9 +209,9 @@ header {
   position: relative;
   top: 4vh;
   left: -2vw;
-  background-color: #125375;
+  background-color: #67b100;
   font-size: 1.4rem;
-  color: #C4804E;
+  color: #125375;
   padding-top: 1vh;
   padding-bottom: 1vh;
   padding-left: 1vw;
@@ -273,14 +274,14 @@ header {
 }
 .containerLogin .callToAction-login-primary {
   background: #D0E4A7;
-  color: #C4804E;
+  color: #125375;
   border: none;
   border-radius: 50rem;
   font-weight: bold;
   margin: 1vh;
 }
 .containerLogin .callToAction-login-primary:hover {
-  background-color: #C4804E;
+  background-color: #125375;
   color: white;
 }
 .containerLogin .iconosRedesSociales-login {
@@ -291,21 +292,23 @@ header {
 
 /*-------------------------------- FOOTER ----------------------------------*/
 .footerContainer {
-  background-color: #125375;
+  background-color: #67b100;
   padding-bottom: 1vh;
 }
 .footerContainer .h5Footer {
-  font-size: 1.2rem bold;
+  font-size: 1.35rem bold;
   font-weight: bold;
   margin-bottom: 2vh;
   margin-top: 2vh;
-  color: #6FB63D;
+  color: #aa581d;
 }
 .footerContainer .linksFooterText {
   line-height: 1.75;
-  color: #C4804E;
+  font-weight: bold;
+  color: #125375;
   margin-right: 2vw;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 .footerContainer .twitterFooterContainer {
   display: -webkit-box;
@@ -325,14 +328,14 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
-  color: #C4804E;
+  color: #125375;
   text-decoration: none;
 }
 .footerContainer .greenBold {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
-  color: #6FB63D;
+  color: #aa581d;
   text-decoration: none;
 }
 .footerContainer .redesSociales {

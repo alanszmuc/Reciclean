@@ -1,9 +1,12 @@
-$color-primary: #125375;
-$color-secondary: #C4804E;
+$color-primary: #67b100;
+$color-secondary: #125375;
 $color-tertiary: #6FB63D;
 $border-text-color: #b8b5b5ec;
 $color-black: black;
 $color-white: white;
+$color-orange: #aa581d;
+$bg-color-form-primary: #a2ca84;
+$bg-color-form-secondary: #aca9a9ec ;
 $padding-height: 1vh;
 $padding-width: 1vw;
 $margin-height: 1vh;
@@ -76,9 +79,9 @@ $noticias-tag-paragraph-width: $padding-width ;
 
 
 $footer-padding-height: $padding-height; 
-$footer-h5-size: 1.2rem bold;
+$footer-h5-size: 1.35rem bold;
 $footer-h5-weight: bold;
-$footer-h5-color: $color-tertiary;
+$footer-h5-color: $color-orange;
 $links-footer-color: $color-secondary;
 
 $footer-twitterContainer-size: 1.8rem;

@@ -55,7 +55,7 @@ a{
 }
 
 .callToAction-formulario-primary {
-    background: $bg-color-CallToAction;
+    background: $bg-color-form-primary;
     color: $color-CallToAction;
     border: $border-callToAction;
     border-radius: $border-radius-callToAction;
@@ -71,7 +71,7 @@ a{
 }
 
 .callToAction-formulario-secondary {
-    background: $color-primary;
+    background: $bg-color-form-secondary;
     color: $color-CallToAction;
     border: $border-callToAction;
     border-radius: $border-radius-callToAction;

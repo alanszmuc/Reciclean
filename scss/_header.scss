@@ -26,11 +26,12 @@ header{
     color: $color-secondary; 
     padding-right: $header-padding;
     padding-left: $header-padding;
+    font-weight: bold;
 }
 
 .navBarcontentTextGreenBold{
     @extend .navBarcontentText;
-    color: $color-tertiary;
+    color: $color-orange;
 }
 
 
@@ -44,7 +45,7 @@ header{
 }
 
 .navBarcontentTextGreenBold:hover{
-    background-color: $color-tertiary;
+    background-color: $color-orange;
     color: $color-white;
     padding: $header-padding;
     border-radius: $redondear-botones;
