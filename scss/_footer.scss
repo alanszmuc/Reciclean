@@ -21,6 +21,24 @@
                 font-size: 1.1rem;
             }
 
+            
+            @media (max-width: 600px){
+
+                .h5Footer{
+                    margin-bottom: 2px;
+                    margin-top: 2px;
+                }
+
+                .linksFooterText{
+                    line-height: 1;
+                    font-weight: $footer-h5-weight; 
+                    color: $color-secondary;
+                    margin-right: $text-margin-width;
+                    text-decoration: $links-text-decoration;
+                    font-size: 1rem;
+                }
+            }
+
             .twitterFooterContainer{
                 @include alinear-al-final;
                 margin-top: 2vh;
@@ -54,6 +72,9 @@
                     height: auto;
                 }
     }
+
+
+
 
 
 /*----Formato de lectura reloj para margin y padding----
