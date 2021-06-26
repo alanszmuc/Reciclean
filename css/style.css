@@ -290,6 +290,7 @@ header {
 }
 .containerLogin .iconosRedesSociales-login {
   width: 3vw;
+  min-width: 35px;
   border-radius: 50rem;
   margin: 1vw;
 }
